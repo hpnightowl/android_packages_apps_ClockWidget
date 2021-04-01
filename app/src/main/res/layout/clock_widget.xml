@@ -74,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:format12Hour="#MMMM"
-                android:textColor="#ff3ddb86"
+                android:textColor="?android:attr/colorAccent"
                 android:textSize="20dp">
             </TextClock>
             <TextView
@@ -88,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Found"
-                android:textColor="#ff3ddb86"
+                android:textColor="?android:attr/colorAccent"
                 android:textSize="20dp">
             </TextView>
 
