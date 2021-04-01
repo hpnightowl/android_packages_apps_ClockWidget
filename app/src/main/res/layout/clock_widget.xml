@@ -2,8 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/clockwidget"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_centerHorizontal="true">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/root"
@@ -20,7 +19,6 @@
                 android:id="@+id/mdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="33dp"
                 android:textSize="20sp"
                 android:textColor="@color/white"
                 android:format12Hour="EEE" />
