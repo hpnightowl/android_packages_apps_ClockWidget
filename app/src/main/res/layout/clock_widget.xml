@@ -7,9 +7,7 @@
 
     <LinearLayout
         android:id="@+id/root"
-        style="@style/CardView.Dark"
         android:background="@drawable/clockback"
-        android:theme="@style/CardView.Dark"
         android:layout_gravity="fill_horizontal"
         android:layout_width="wrap_content"
         android:padding="20dp"
@@ -27,7 +25,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textColor="@color/white"
-                android:format12Hour="EEE" />
+                android:format12Hour="EEE"
+                android:format24Hour="EEE"/>
 
 
             <TextClock
@@ -36,7 +35,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textColor="@color/white"
-                android:format12Hour=",dd" />
+                android:format12Hour=",dd"
+                android:format24Hour=",dd"/>
         </LinearLayout>
 
 
@@ -53,7 +53,7 @@
                 android:textColor="@android:color/primary_text_dark"
                 android:format12Hour="hh:"
                 android:textStyle="bold"
-                android:format24Hour="kk"
+                android:format24Hour="kk:"
                 android:textSize="50sp" />
 
             <TextClock
@@ -78,6 +78,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:format12Hour="#MMMM"
+                android:format24Hour="#MMMM"
                 android:textColor="?android:attr/colorAccent"
                 android:textSize="20dp">
             </TextClock>
