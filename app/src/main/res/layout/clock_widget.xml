@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:textColor="@color/white"
+                android:textColor="@color/clock_text"
                 android:format12Hour="EEE"
                 android:format24Hour="EEE"/>
 
@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:textColor="@color/white"
+                android:textColor="@color/clock_text"
                 android:format12Hour=",dd"
                 android:format24Hour=",dd"/>
         </LinearLayout>
@@ -48,7 +48,7 @@
                 android:hapticFeedbackEnabled="true"
                 android:layout_below="@id/date"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/primary_text_dark"
+                android:textColor="@color/clock_text"
                 android:format12Hour="hh:"
                 android:textStyle="bold"
                 android:format24Hour="kk:"
@@ -61,7 +61,7 @@
                 android:layout_below="@id/date"
                 android:format12Hour="mm"
                 android:format24Hour="mm"
-                android:textColor="@color/white"
+                android:textColor="@color/clock_text"
                 android:textSize="50sp" />
 
         </LinearLayout>
@@ -84,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Not"
-                android:textColor="@android:color/primary_text_dark"
+                android:textColor="@color/clock_text"
                 android:textSize="20dp">
             </TextView>
             <TextView
