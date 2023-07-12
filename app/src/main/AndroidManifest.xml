@@ -15,6 +15,20 @@
         android:supportsRtl="true"
         android:exported="true"
         android:theme="@style/Theme.Clock">
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Clock"
+            android:label="@string/title_activity_settings">
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+        <intent-filter>
+            <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <receiver android:name=".ClockWidget" android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
