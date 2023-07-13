@@ -98,6 +98,30 @@
                 android:textSize="20dp">
             </TextView>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tempTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowRadius="4"
+                android:textColor="?android:attr/colorAccent"
+                android:textSize="70sp" />
+
+            <TextView
+                android:id="@+id/descTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"
+                android:textColor="?android:attr/colorAccent"
+                android:textSize="50sp" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </FrameLayout>

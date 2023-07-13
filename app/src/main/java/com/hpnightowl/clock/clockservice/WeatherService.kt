@@ -1,27 +1,13 @@
-package com.hpnightowl.clock
+package com.hpnightowl.clock.clockservice
 
 import android.annotation.SuppressLint
-import android.appwidget.AppWidgetManager
-import android.content.Context
-import android.graphics.Color
-import android.text.Spannable
-import android.text.SpannableString
-import android.text.style.ForegroundColorSpan
-import android.util.Log
-import android.widget.RemoteViews
-import android.widget.Toast
-import com.hpnightowl.clock.R
 import com.hpnightowl.clock.model.data
-import com.google.gson.Gson
 import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
 import java.util.*
-import kotlin.math.roundToInt
 
 class WeatherService {
 

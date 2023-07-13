@@ -18,6 +18,9 @@ android {
     }
 
     buildTypes {
+        buildTypes.each {
+            it.resValue  'string', 'apiId', "\"$System.env.OPENWEATHER_API_KEY\""
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'

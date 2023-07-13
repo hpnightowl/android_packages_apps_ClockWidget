@@ -19,7 +19,7 @@
             android:name=".SettingsActivity"
             android:exported="true"
             android:theme="@style/Theme.Clock"
-            android:label="@string/title_activity_settings">
+            android:label="@string/app_name">
         <meta-data
             android:name="android.app.lib_name"
             android:value="" />
