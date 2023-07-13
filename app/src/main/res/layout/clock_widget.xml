@@ -27,15 +27,14 @@
                 android:format12Hour="EEE"
                 android:format24Hour="EEE"/>
 
-
             <TextClock
                 android:id="@+id/ddate"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textColor="@color/clock_text"
-                android:format12Hour=",dd"
-                android:format24Hour=",dd"/>
+                android:format12Hour=", dd"
+                android:format24Hour=", dd"/>
         </LinearLayout>
 
 
